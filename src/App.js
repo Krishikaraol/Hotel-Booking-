@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import Home from './components/Home.jsx';
 import './App.css';
+import Aboutus from './components/Aboutus.jsx';
+import Populardes from './components/Populardes.jsx';
+import Services from './components/Services.jsx';
+import Rooms from './components/Rooms.jsx';
+import Review from './components/Review.jsx';
+import Blogs from './components/Blogs.jsx';
+import Gallery from './components/Gallery.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Home />
+      <Aboutus />
+      <Populardes/>
+      <Services/>
+    <Rooms/>
+<Review/>
+<Blogs/>
+<Gallery/>
+<Footer/>
+    </>
   );
 }
 
